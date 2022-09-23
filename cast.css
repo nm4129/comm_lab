@@ -1,0 +1,16 @@
+﻿body{
+    margin: 0px;
+    padding: 0px;
+}
+.type1{
+    width: 30%;
+    display: block;
+    margin: 0px auto; 
+}
+.type2{
+    width: 30%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);  
+}

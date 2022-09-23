@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<style>
+    body {
+        text-align: center;
+    }
+</style>
+<head>
+  
+    <title>CAST</title>
+    <link rel="stylesheet" href="cast.css"/>
+</head>
+<body>
+    <h1 style="font-size:60px; background-color:#808080; color:white;">CAST</h1>
+    <img id="image1" src="image1.jpg" alt="" onClick="changeImage() "class="type1 type2" >
+    <script>
+        function changeImage() {
+            let displayImage = document.getElementById('image1')
+            if (displayImage.src.match(image1.jpg)) {
+                displayImage.src = 'image2.jpg'
+            } 
+            else
+            {
+                displayImage.src ='image1.jpg'
+            }
+           
+           
+        }
+    </script>
+    <h5 style=  color:grey;">click the picture</h5>
+
+</body>
+</html>
